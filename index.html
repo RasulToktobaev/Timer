@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/672/990/png-transparent-stopwatch-timer-graphy-countdown-clock-others-miscellaneous-timer-stopwatch-thumbnail.png">
+</head>
+<body>
+
+<section class="timer_section">
+    <div class="promotion">
+        <div class="container">
+            <div class="promotion__timer">
+                <h1 class="title">Осталось до дня рождения !</h1>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">00</span>
+                        дней
+                    </div>
+                    <span class="timer__line">|</span>
+                    <div class="timer__block">
+                        <span id="hours">00</span>
+                        часов
+                    </div>
+                    <span class="timer__line">|</span>
+                    <div class="timer__block">
+                        <span id="minutes">00</span>
+                        минут
+                    </div>
+                    <span class="timer__line">|</span>
+                    <div class="timer__block">
+                        <span id="seconds">00</span>
+                        секунд
+                    </div>
+                </div>
+                <div class="timer__box">
+                    <input class="timer__input" type="datetime-local" >
+                    <button class="timer__btn" type="button">Установить</button>
+                    <button type="button" class="reset__btn">Сбросить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
